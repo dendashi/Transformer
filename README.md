@@ -10,15 +10,15 @@ A translator based on Transformer
   **dataset2.py** 可以将文本数据转换成对应 ID，并且用 pad 填充短句子。
 
 ## 模型构建
-` **transformer.py** 为模型总框架。
+· **transformer.py** 为模型总框架。
 
-` **encoder.py** 为编码器。
+· **encoder.py** 为编码器。
 
-` **decoder.py** 为解码器。
+· **decoder.py** 为解码器。
 
-` **embeddinglayer.py** 添加位置编码。
+· **embeddinglayer.py** 添加位置编码。
 
-` **paddingmask.py** 实现掩码操作。
+· **paddingmask.py** 实现掩码操作。
 
 ## 训练
   运行 **train.ipynb** ，训练模型。这里我数据集质量不是很好，可以使用更好的中英文对照数据集进行训练。
