@@ -24,6 +24,7 @@ A translator based on Transformer
   运行 **train.ipynb** ，训练模型。这里我数据集质量不是很好，可以使用更好的中英文对照数据集进行训练。
 
   训练结果如下图：
+  
   ![curve_epoch](curve_epoch.png)
   
   
